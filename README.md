@@ -1,4 +1,4 @@
-<!-- 產品／專案：aegis_expert_cis｜法人／事業體：AEGIS／亞傑師（完整法定名稱 [待確認]）｜日期：2026-11-11（Asia/Taipei）｜草稿 v0.3 -->
+<!-- 產品／專案：aegis_expert_cis｜法人／事業體：AEGIS／亞傑師（完整法定名稱 [待確認]）｜日期：2026-11-13（Asia/Taipei）｜草稿 v0.3.1 -->
 # aegis_expert_cis
 AEGIS.expert 亞傑師 官網架構規格書暨 CIS 企業識別系統
 # AEGIS.expert 亞傑師
@@ -151,7 +151,7 @@ aegis.expert (主官網)
 │    ├── 痛點直擊: 為什麼您需要「神盾級保護」的 AI？
 │    ├── AEGIS 核心解密: 什麼是卓越指導系統 (AEGIS)？
 │    ├── 兩大人力招募入口導流 (斜槓一二三 / 斜槓104)
-│    └── 產品生態展示 (FHE Wrapper, FHE AI NAS)
+│    └── 產品生態展示 (FHE Wrapper, 密文智庫（EncryMind）)
 │
 ├── 02. 技術架構 (Technology: FHE & Security)
 │    ├── 何謂同態加密 (HE / FHE) 與密文運算
@@ -169,7 +169,7 @@ aegis.expert (主官網)
 │
 ├── 05. 產品與預售矩陣 (Products & Presale)
 │    ├── FHE AI 套殼介面 (with USB 實體安全密鑰)
-│    └── FHE AI NAS (企業/個人私有安全節點)
+│    └── 密文智庫 (企業/個人私有安全節點)
 │
 └── 06. 關於我們與善 AI 聯盟 (About & Alliance)
      ├── 非紅將軍的願力與團隊誓言 (守護對自己的承諾)
@@ -224,7 +224,7 @@ aegis.expert (主官網)
 #### Section 5: 生態硬體與產品矩陣 (連結 PMO 專案)
 * **產品 A：FHE 套殼 AI 應用介面 (with USB)**
   - 專屬 USB 實體安全密鑰，插入即開通私密 AI 分析工作台，敏感欄位自動進入密文運算。
-* **產品 B：FHE AI NAS**
+* **產品 B：密文智庫**
   - 本地私有知識庫節點。企業與家庭資料 100% 本地存儲，提供「不可下載、但可受控推理」的商業授權服務。
 
 #### Section 6: 願力與承諾 (品牌故事)
@@ -287,6 +287,11 @@ aegis.expert (主官網)
 ---
 *規範檔版本：v1.0.0 | 審定代碼：`AEGIS-CIS-SPEC-2026` | 歸屬機構：善 AI 聯盟 / 亞傑師專家系統*
 
+
+## v0.3.1 變更註記（2026-11-13，Asia/Taipei）
+
+依使用者 2026-11-13 指示，對外產品顯示名稱由「FHE AI NAS」及「亞傑師私有金庫 / AEGIS Vault / AEGIS-Vault」統一為「密文智庫 / EncryMind」。僅替換散文、標題與表頭中的顯示名稱；repo 名稱 AEGIS-Vault、org、產品代號、檔名主體、URL、CTA 代碼、分支與程式識別字不變。
+本文件為草稿 v0.3.1，其餘 [待確認] 標註維持。
 
 ## v0.3 變更註記（2026-11-11，Asia/Taipei）
 
